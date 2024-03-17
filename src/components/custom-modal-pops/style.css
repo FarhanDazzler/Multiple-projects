@@ -1,0 +1,26 @@
+#Modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: 1;
+  border: 2px solid greenyellow;
+  color: green;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  background-color: aliceblue;
+  width: 80%;
+}
+
+.close-modal {
+  font-size: x-large;
+  cursor: pointer;
+  font-weight: 600;
+}

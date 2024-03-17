@@ -1,0 +1,16 @@
+.star-rating {
+  /* margin: auto;
+  align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.active {
+  color: yellow;
+}
+
+.inactive {
+  color: black;
+}
