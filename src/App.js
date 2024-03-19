@@ -1,5 +1,8 @@
-import "./App.css";
-import { ModalPopUps } from "./components/custom-modal-pops/modal-text";
+// import "./App.css";
+
+import { TicTacToe } from "./components/tic-tac-toe";
+
+// import { ModalPopUps } from "./components/custom-modal-pops/modal-text";
 
 // import { LightDarkTheme } from "./components/light-dark-theme";
 // import { ScrollToTopOrBottom } from "./components/scrollTotopAndscrollTobottom";
@@ -24,7 +27,8 @@ function App() {
       {/* <Treeview menu={treeData} /> */}
       {/* <ScrollToTopOrBottom /> */}
       {/* <LightDarkTheme /> */}
-      <ModalPopUps />
+      {/* <ModalPopUps /> */}
+      <TicTacToe />
     </div>
   );
 }
