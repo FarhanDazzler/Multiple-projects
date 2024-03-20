@@ -1,6 +1,8 @@
 // import "./App.css";
 
-import { TicTacToe } from "./components/tic-tac-toe";
+import { FoodRecipeApp } from "./components/food-recipe-app";
+
+// import { TicTacToe } from "./components/tic-tac-toe";
 
 // import { ModalPopUps } from "./components/custom-modal-pops/modal-text";
 
@@ -28,7 +30,8 @@ function App() {
       {/* <ScrollToTopOrBottom /> */}
       {/* <LightDarkTheme /> */}
       {/* <ModalPopUps /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <FoodRecipeApp />
     </div>
   );
 }
