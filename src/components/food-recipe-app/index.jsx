@@ -12,7 +12,7 @@ export const FoodRecipeApp = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/recipe-items/:id" element={<Details />} />
+          <Route path="/recipe-item/:id" element={<Details />} />
           <Route path="/favorities" element={<Favorities />} />
         </Routes>
       </div>
