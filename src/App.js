@@ -1,6 +1,8 @@
 // import "./App.css";
 
-import { FoodRecipeApp } from "./components/food-recipe-app";
+import { ShoppingApp } from "./components/shopping-cart-app/pages/Main";
+
+// import { FoodRecipeApp } from "./components/food-recipe-app";
 
 // import { TicTacToe } from "./components/tic-tac-toe";
 
@@ -31,7 +33,8 @@ function App() {
       {/* <LightDarkTheme /> */}
       {/* <ModalPopUps /> */}
       {/* <TicTacToe /> */}
-      <FoodRecipeApp />
+      {/* <FoodRecipeApp /> */}
+      <ShoppingApp />
     </div>
   );
 }
