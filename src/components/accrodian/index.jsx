@@ -46,6 +46,7 @@ export const Accordian = () => {
                   <h3>{dataItem.first_name}</h3>
                   <span>+</span>
                 </div>
+
                 {enableMultipleSelection
                   ? multiple.indexOf(dataItem.id) !== -1 && (
                       <div className="content">{dataItem.text}</div>

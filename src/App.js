@@ -1,6 +1,10 @@
 // import "./App.css";
 
-import { ShoppingApp } from "./components/shopping-cart-app/pages/Main";
+import { ImageSlider } from "./components/image-slider/imageSlider";
+
+// import { CurrencyConverterHomePage } from "./components/currency-converter";
+
+// import { ShoppingApp } from "./components/shopping-cart-app/pages/Main";
 
 // import { FoodRecipeApp } from "./components/food-recipe-app";
 
@@ -34,7 +38,9 @@ function App() {
       {/* <ModalPopUps /> */}
       {/* <TicTacToe /> */}
       {/* <FoodRecipeApp /> */}
-      <ShoppingApp />
+      {/* <ShoppingApp /> */}
+      {/* <CurrencyConverterHomePage /> */}
+      <ImageSlider />
     </div>
   );
 }
