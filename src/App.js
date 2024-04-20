@@ -1,6 +1,8 @@
 // import "./App.css";
 
-import { FormDynamic } from "./components/Dynamic-form/Form";
+import { CircleBox } from "./components/CircleBox/CircleBox";
+
+// import { FormDynamic } from "./components/Dynamic-form/Form";
 // import { ImageSlider } from "./components/image-slider/imageSlider";
 
 // import { CurrencyConverterHomePage } from "./components/currency-converter";
@@ -42,7 +44,8 @@ function App() {
       {/* <ShoppingApp /> */}
       {/* <CurrencyConverterHomePage /> */}
       {/* <ImageSlider /> */}
-      <FormDynamic />
+      {/* <FormDynamic /> */}
+      <CircleBox />
     </div>
   );
 }
