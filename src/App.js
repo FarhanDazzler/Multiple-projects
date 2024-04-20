@@ -1,6 +1,7 @@
 // import "./App.css";
 
-import { ImageSlider } from "./components/image-slider/imageSlider";
+import { FormDynamic } from "./components/Dynamic-form/Form";
+// import { ImageSlider } from "./components/image-slider/imageSlider";
 
 // import { CurrencyConverterHomePage } from "./components/currency-converter";
 
@@ -40,7 +41,8 @@ function App() {
       {/* <FoodRecipeApp /> */}
       {/* <ShoppingApp /> */}
       {/* <CurrencyConverterHomePage /> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
+      <FormDynamic />
     </div>
   );
 }
