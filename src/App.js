@@ -1,6 +1,8 @@
 // import "./App.css";
 
-import { CircleBox } from "./components/CircleBox/CircleBox";
+import { TagInput } from "./components/TagInputs/TagInput";
+
+// import { CircleBox } from "./components/CircleBox/CircleBox";
 
 // import { FormDynamic } from "./components/Dynamic-form/Form";
 // import { ImageSlider } from "./components/image-slider/imageSlider";
@@ -45,7 +47,8 @@ function App() {
       {/* <CurrencyConverterHomePage /> */}
       {/* <ImageSlider /> */}
       {/* <FormDynamic /> */}
-      <CircleBox />
+      {/* <CircleBox /> */}
+      <TagInput />
     </div>
   );
 }
