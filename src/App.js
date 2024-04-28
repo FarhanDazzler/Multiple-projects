@@ -1,6 +1,8 @@
 // import "./App.css";
 
-import { TagInput } from "./components/TagInputs/TagInput";
+import { TrafficLight } from "./components/Trafficlight/TrafficLight";
+
+// import { TagInput } from "./components/TagInputs/TagInput";
 
 // import { CircleBox } from "./components/CircleBox/CircleBox";
 
@@ -48,7 +50,8 @@ function App() {
       {/* <ImageSlider /> */}
       {/* <FormDynamic /> */}
       {/* <CircleBox /> */}
-      <TagInput />
+      {/* <TagInput /> */}
+      <TrafficLight />
     </div>
   );
 }
