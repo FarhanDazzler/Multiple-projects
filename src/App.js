@@ -1,6 +1,11 @@
 // import "./App.css";
 
-import { TrafficLight } from "./components/Trafficlight/TrafficLight";
+// import { NavigationToggle } from "./components/Navigation-Toggle/Navigation";
+// import { Explorer } from "./components/explorer-folder/explorer";
+// import { data } from "./components/explorer-folder/data";
+import { Stopwatch } from "./components/stopwatch/stopwatch";
+// import { ScrollAction } from "./components/scroll-action/scrollAction";
+// import { TrafficLight } from "./components/Trafficlight/TrafficLight";
 
 // import { TagInput } from "./components/TagInputs/TagInput";
 
@@ -51,7 +56,11 @@ function App() {
       {/* <FormDynamic /> */}
       {/* <CircleBox /> */}
       {/* <TagInput /> */}
-      <TrafficLight />
+      {/* <TrafficLight /> */}
+      {/* <NavigationToggle /> */}
+      {/* <ScrollAction /> */}
+      {/* <Explorer data={data} /> */}
+      <Stopwatch />
     </div>
   );
 }

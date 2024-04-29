@@ -25,6 +25,9 @@ export const TrafficLight = () => {
         setTimeout(() => {
           setActive(colors.green);
         }, 1000);
+        break;
+      default:
+        break;
     }
   }, [active]);
   return (
