@@ -1,9 +1,14 @@
 // import "./App.css";
 
+// import { CollapsibleBox } from "./components/Collapsable-box/collapsibleBox";
+import { MoveableDiv } from "./components/MoveableDiv/MoveableDiv";
+
+// import { SearchableDropDown } from "./components/Searchable-dropDown/SearchableDropDown";
+
 // import { NavigationToggle } from "./components/Navigation-Toggle/Navigation";
 // import { Explorer } from "./components/explorer-folder/explorer";
 // import { data } from "./components/explorer-folder/data";
-import { Stopwatch } from "./components/stopwatch/stopwatch";
+// import { Stopwatch } from "./components/stopwatch/stopwatch";
 // import { ScrollAction } from "./components/scroll-action/scrollAction";
 // import { TrafficLight } from "./components/Trafficlight/TrafficLight";
 
@@ -60,7 +65,10 @@ function App() {
       {/* <NavigationToggle /> */}
       {/* <ScrollAction /> */}
       {/* <Explorer data={data} /> */}
-      <Stopwatch />
+      {/* <Stopwatch /> */}
+      {/* <SearchableDropDown /> */}
+      {/* <CollapsibleBox /> */}
+      <MoveableDiv />
     </div>
   );
 }
