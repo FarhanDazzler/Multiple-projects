@@ -1,7 +1,10 @@
 // import "./App.css";
 
 // import { CollapsibleBox } from "./components/Collapsable-box/collapsibleBox";
-import { MoveableDiv } from "./components/MoveableDiv/MoveableDiv";
+// import { MoveableDiv } from "./components/MoveableDiv/MoveableDiv";
+import { Provider } from "react-redux";
+import { store } from "./components/Redux-CurdApp/store";
+import { ReduxCurdApp } from "./components/Redux-CurdApp/ReduxCurdApp";
 
 // import { SearchableDropDown } from "./components/Searchable-dropDown/SearchableDropDown";
 
@@ -42,34 +45,37 @@ import { MoveableDiv } from "./components/MoveableDiv/MoveableDiv";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Accordian/> */}
-      {/* <StarRating noOfStars={10} /> */}
-      {/* <Customhook /> */}
-      {/* <SearchBox /> */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit-100"} /> */}
-      {/* <LoadMoreButton /> */}
-      {/* <Treeview menu={treeData} /> */}
-      {/* <ScrollToTopOrBottom /> */}
-      {/* <LightDarkTheme /> */}
-      {/* <ModalPopUps /> */}
-      {/* <TicTacToe /> */}
-      {/* <FoodRecipeApp /> */}
-      {/* <ShoppingApp /> */}
-      {/* <CurrencyConverterHomePage /> */}
-      {/* <ImageSlider /> */}
-      {/* <FormDynamic /> */}
-      {/* <CircleBox /> */}
-      {/* <TagInput /> */}
-      {/* <TrafficLight /> */}
-      {/* <NavigationToggle /> */}
-      {/* <ScrollAction /> */}
-      {/* <Explorer data={data} /> */}
-      {/* <Stopwatch /> */}
-      {/* <SearchableDropDown /> */}
-      {/* <CollapsibleBox /> */}
-      <MoveableDiv />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        {/* <Accordian/> */}
+        {/* <StarRating noOfStars={10} /> */}
+        {/* <Customhook /> */}
+        {/* <SearchBox /> */}
+        {/* <ScrollIndicator url={"https://dummyjson.com/products?limit-100"} /> */}
+        {/* <LoadMoreButton /> */}
+        {/* <Treeview menu={treeData} /> */}
+        {/* <ScrollToTopOrBottom /> */}
+        {/* <LightDarkTheme /> */}
+        {/* <ModalPopUps /> */}
+        {/* <TicTacToe /> */}
+        {/* <FoodRecipeApp /> */}
+        {/* <ShoppingApp /> */}
+        {/* <CurrencyConverterHomePage /> */}
+        {/* <ImageSlider /> */}
+        {/* <FormDynamic /> */}
+        {/* <CircleBox /> */}
+        {/* <TagInput /> */}
+        {/* <TrafficLight /> */}
+        {/* <NavigationToggle /> */}
+        {/* <ScrollAction /> */}
+        {/* <Explorer data={data} /> */}
+        {/* <Stopwatch /> */}
+        {/* <SearchableDropDown /> */}
+        {/* <CollapsibleBox /> */}
+        {/* <MoveableDiv /> */}
+        <ReduxCurdApp />
+      </div>
+    </Provider>
   );
 }
 
